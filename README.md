@@ -1,13 +1,13 @@
 # Maksym Gavrylenko  
 **Software Engineering Intern | Full-Stack Developer**
 
-[![GitHub followers](https://img.shields.io/github/followers/yourusername?label=Follow&style=social)](https://github.com/Juuzoe)  
+[![GitHub followers](https://img.shields.io/github/followers/Juuzoe?label=Follow&style=social)](https://github.com/Juuzoe)  
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-blue)](https://www.linkedin.com/in/maksym-gavrylenko/)
 
 ---
 
 ## 👨‍💻 About Me
-I am a passionate software engineer with hands-on experience in full-stack development, API integration, and system optimisation. I thrive on building scalable applications and resolving complex challenges with innovative solutions.  
+I am a passionate software engineer with hands-on experience in full-stack development, API integration, and system optimisation. I thrive on building scalable applications and resolving complex challenges with innovative solutions.
 
 ---
 
@@ -21,7 +21,6 @@ I am a passionate software engineer with hands-on experience in full-stack devel
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" alt="Java" width="50" style="margin: 10px;">
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/csharp/csharp-original.svg" alt="C#" width="50" style="margin: 10px;">
   <img src="https://cdn.simpleicons.org/cplusplus" alt="C++" width="50" style="margin: 10px;">
-  <img src="https://upload.wikimedia.org/wikipedia/commons/4/40/Sql_database_logo.svg" alt="SQL" width="50" style="margin: 10px;">
 </p>
 
 ### Frameworks & Tools
@@ -54,21 +53,6 @@ I am a passionate software engineer with hands-on experience in full-stack devel
 - **Entrepreneurship:** Successfully sold the project, underscoring robust expertise in scalable infrastructure.
 
 ---
-## 💼 Work Experience
-
-### TechUnit – Intern Software Engineer  
-*Remote | 09/2024 – 12/2024*  
-- **Web Development:** Designed and deployed two websites, reducing development time by 30%.
-- **Issue Resolution:** Diagnosed and fixed 15+ front-end/back-end issues weekly, enhancing system uptime by 20%.
-- **Database Optimisation:** Refined SQL queries, cutting database response times by 35%.
-
-### Video-game Server – Business Co-owner & Lead Software Engineer  
-*Remote | 04/2019 – 04/2023*  
-- **Scalability:** Built and maintained a high-traffic Minecraft server with 10,000+ monthly users.
-- **Innovation:** Developed custom mods in Java and tailored server modifications that increased player retention by 200%.
-- **Entrepreneurship:** Successfully sold the project, underscoring robust expertise in scalable infrastructure.
-
----
 
 ## 🚀 Projects
 
@@ -80,7 +64,7 @@ I am a passionate software engineer with hands-on experience in full-stack devel
   A project that utilises natural language processing (NLP) to generate concise summaries of news articles, making information more digestible.
 
 - **[Coffee-Break](https://github.com/Juuzoe/Coffee-Break):**  
-  A lightweight Chrome extension designed to help manage break times effectively, promoting better work-life balance with an intuitive interface.
+  A lightweight Chrome extension designed to help manage break times effectively, promoting better work–life balance with an intuitive interface.
 
 *Additional projects and contributions are regularly updated on my [GitHub profile](https://github.com/Juuzoe).*
 
@@ -101,5 +85,3 @@ I am a passionate software engineer with hands-on experience in full-stack devel
 
 - **Email:** [mgavrylenko05@gmail.com](mailto:mgavrylenko05@gmail.com)  
 - **LinkedIn:** [Maksym Gavrylenko](https://www.linkedin.com/in/maksym-gavrylenko/)
-
----
