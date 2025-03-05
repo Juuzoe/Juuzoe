@@ -16,24 +16,24 @@ I am a passionate software engineer with hands-on experience in full-stack devel
 ### Programming Languages
 
 <p align="center">
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" alt="Python" width="50" height="50" style="margin: 10px;">
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" alt="JavaScript" width="50" height="50" style="margin: 10px;">
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" alt="Java" width="50" height="50" style="margin: 10px;">
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/csharp/csharp-original.svg" alt="C#" width="50" height="50" style="margin: 10px;">
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cplusplus/cplusplus-original.svg" alt="C++" width="50" height="50" style="margin: 10px;">
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg" alt="MySQL" width="50" height="50" style="margin: 10px;">
+  <img src="https://cdn.simpleicons.org/python" alt="Python" width="50" style="margin: 10px;">
+  <img src="https://cdn.simpleicons.org/javascript" alt="JavaScript" width="50" style="margin: 10px;">
+  <img src="https://cdn.simpleicons.org/java" alt="Java" width="50" style="margin: 10px;">
+  <img src="https://cdn.simpleicons.org/csharp" alt="C#" width="50" style="margin: 10px;">
+  <img src="https://cdn.simpleicons.org/cplusplus" alt="C++" width="50" style="margin: 10px;">
+  <img src="https://cdn.simpleicons.org/mysql" alt="MySQL" width="50" style="margin: 10px;">
 </p>
 
 ### Frameworks & Tools
 
 <p align="center">
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" alt="React" width="50" height="50" style="margin: 10px;">
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jquery/jquery-plain-wordmark.svg" alt="jQuery" width="50" height="50" style="margin: 10px;">
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/php/php-original.svg" alt="PHP" width="50" height="50" style="margin: 10px;">
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" alt="Git" width="50" height="50" style="margin: 10px;">
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" alt="GitHub" width="50" height="50" style="margin: 10px;">
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jenkins/jenkins-original.svg" alt="Jenkins" width="50" height="50" style="margin: 10px;">
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/googlechrome/googlechrome-original.svg" alt="Chrome DevTools" width="50" height="50" style="margin: 10px;">
+  <img src="https://cdn.simpleicons.org/react" alt="React" width="50" style="margin: 10px;">
+  <img src="https://cdn.simpleicons.org/jquery" alt="jQuery" width="50" style="margin: 10px;">
+  <img src="https://cdn.simpleicons.org/php" alt="PHP" width="50" style="margin: 10px;">
+  <img src="https://cdn.simpleicons.org/git" alt="Git" width="50" style="margin: 10px;">
+  <img src="https://cdn.simpleicons.org/github" alt="GitHub" width="50" style="margin: 10px;">
+  <img src="https://cdn.simpleicons.org/jenkins" alt="Jenkins" width="50" style="margin: 10px;">
+  <img src="https://cdn.simpleicons.org/googlechrome" alt="Chrome DevTools" width="50" style="margin: 10px;">
 </p>
 
 ---
