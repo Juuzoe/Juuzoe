@@ -51,19 +51,17 @@ I am a passionate software engineer with hands-on experience in full-stack devel
 
 ## 🚀 Projects
 
-### Featured Projects
-I invite you to explore my GitHub profile for a comprehensive view of my work: [Juuzoe on GitHub](https://github.com/Juuzoe).
+### Popular Repositories
+- **[PythonEmotionDetecter](https://github.com/Juuzoe/PythonEmotionDetecter):**  
+  A Python project employing machine learning techniques to detect emotions from text and images, enabling more nuanced sentiment analysis.
 
-- **Lemox (TechUnit):**  
-  Developed secure backend authentication and MySQL data management systems, reducing login failures by 40% and load times by 30%.
+- **[PythonNewsSummariser](https://github.com/Juuzoe/PythonNewsSummariser):**  
+  A project that utilises natural language processing (NLP) to generate concise summaries of news articles, making information more digestible.
 
-- **Austrian Study Centre (TechUnit):**  
-  Created a responsive website featuring dynamic sliders, which boosted user engagement by 35%.
+- **[Coffee-Break](https://github.com/Juuzoe/Coffee-Break):**  
+  A lightweight Chrome extension designed to help manage break times effectively, promoting better work-life balance with an intuitive interface.
 
-- **Coffee Break (Chrome Extension):**  
-  Engineered a lightweight Chrome extension for break-time management, combining an intuitive UI with seamless performance.
-
-*Additional projects and contributions are regularly updated on my GitHub profile.*
+*Additional projects and contributions are regularly updated on my [GitHub profile](https://github.com/Juuzoe).*
 
 ---
 
@@ -84,5 +82,3 @@ I invite you to explore my GitHub profile for a comprehensive view of my work: [
 - **LinkedIn:** [Maksym Gavrylenko](https://www.linkedin.com/in/maksym-gavrylenko/)
 
 ---
-
-
