@@ -21,7 +21,7 @@ I am a passionate software engineer with hands-on experience in full-stack devel
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" alt="Java" width="50" style="margin: 10px;">
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/csharp/csharp-original.svg" alt="C#" width="50" style="margin: 10px;">
   <img src="https://cdn.simpleicons.org/cplusplus" alt="C++" width="50" style="margin: 10px;">
-  <img src="https://upload.wikimedia.org/wikipedia/commons/2/2f/SQL_logo.svg" alt="SQL" width="50" style="margin: 10px;">
+  <img src="https://upload.wikimedia.org/wikipedia/commons/4/40/Sql_database_logo.svg" alt="SQL" width="50" style="margin: 10px;">
 </p>
 
 ### Frameworks & Tools
