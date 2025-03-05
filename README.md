@@ -1,14 +1,13 @@
 # Maksym Gavrylenko  
 **Software Engineering Intern | Full-Stack Developer**
 
-[![GitHub followers](https://img.shields.io/github/followers/yourusername?label=Follow&style=social)](https://github.com/yourusername)  
+[![GitHub followers](https://img.shields.io/github/followers/yourusername?label=Follow&style=social)](https://github.com/Juuzoe)  
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-blue)](https://www.linkedin.com/in/maksym-gavrylenko/)
 
 ---
 
 ## 👨‍💻 About Me
 I am a passionate software engineer with hands-on experience in full-stack development, API integration, and system optimisation. I thrive on building scalable applications and resolving complex challenges with innovative solutions.  
-*(Based on details from my CV :contentReference[oaicite:0]{index=0} and my LinkedIn profile.)*
 
 ---
 
