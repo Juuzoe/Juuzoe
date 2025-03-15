@@ -70,17 +70,6 @@ I am a passionate software engineer with hands-on experience in full-stack devel
 
 ---
 
-## 🎓 Education & Certifications
-
-- **BSc Business Management with A Year In Industry**  
-  University of Birmingham *(09/2023 – 06/2027)*
-
-- **Certifications:**  
-  - Amazon Data Structures and Algorithms *(02/2025 – 03/2025)*  
-  - Mimo Python AI Developer Certificate *(03/2024 – 12/2024)*
-
----
-
 ## 📫 Get in Touch
 
 - **Email:** [mgavrylenko05@gmail.com](mailto:mgavrylenko05@gmail.com)  
