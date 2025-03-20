@@ -7,8 +7,7 @@
 ---
 
 ## 👨‍💻 About Me
-I am a passionate software engineer with hands-on experience in full-stack development, API integration, and system optimisation. I thrive on building scalable applications and resolving complex challenges with innovative solutions.
-
+I am a passionate software engineer with hands-on experience in full-stack development, API integration, and system optimisation. 
 ---
 
 ## 🛠 Skills & Tools
