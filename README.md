@@ -6,11 +6,11 @@
 
 ---
 
-## 👨‍💻 About Me
+##  About Me
 I am a passionate software engineer with hands-on experience in full-stack development, API integration, and system optimisation. 
 ---
 
-## 🛠 Skills & Tools
+##  Skills & Tools
 
 ### Programming Languages
 
@@ -37,7 +37,7 @@ I am a passionate software engineer with hands-on experience in full-stack devel
 
 ---
 
-## 💼 Work Experience
+##  Work Experience
 
 ### TechUnit – Intern Software Engineer  
 *Remote | 09/2024 – 12/2024*  
@@ -53,7 +53,7 @@ I am a passionate software engineer with hands-on experience in full-stack devel
 
 ---
 
-## 🚀 Projects
+##  Projects
 
 ### Popular Repositories
 - **[PythonEmotionDetecter](https://github.com/Juuzoe/PythonEmotionDetecter):**  
