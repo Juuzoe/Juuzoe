@@ -1,75 +1,52 @@
-# Maksym Gavrylenko  
-**Software Engineering Intern | Full-Stack Developer**
+<div align="center">
 
-[![GitHub followers](https://img.shields.io/github/followers/Juuzoe?label=Follow&style=social)](https://github.com/Juuzoe)  
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-blue)](https://www.linkedin.com/in/maksym-gavrylenko/)
+# Maksym Gavrylenko
 
----
+Software Engineering Intern • Full-Stack (Web/Automation) • Security-curious  
+UK (open to remote / relocation)
 
-##  About Me
-I am a passionate software engineer with hands-on experience in full-stack development, API integration, and system optimisation. 
----
+<a href="https://www.linkedin.com/in/maksym-gavrylenko-70b588322/">
+  <img alt="LinkedIn" src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?logo=linkedin&logoColor=white">
+</a>
+<a href="mailto:mgavrylenko05@gmail.com">
+  <img alt="Email" src="https://img.shields.io/badge/Email-Contact-333333?logo=gmail&logoColor=white">
+</a>
 
-##  Skills & Tools
+<br/>
 
-### Programming Languages
+<img
+  src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=18&pause=900&center=true&vCenter=true&width=680&lines=Full-stack+web+development;Python+%7C+Java+%7C+JavaScript+%7C+C%23;Automation+tools+%26+developer+utilities;Building+security-focused+projects+and+learning+every+week"
+  alt="Typing SVG"
+/>
 
-<p align="center">
-  <img src="https://cdn.simpleicons.org/python" alt="Python" width="50" style="margin: 10px;">
-  <img src="https://cdn.simpleicons.org/javascript" alt="JavaScript" width="50" style="margin: 10px;">
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" alt="Java" width="50" style="margin: 10px;">
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/csharp/csharp-original.svg" alt="C#" width="50" style="margin: 10px;">
-  <img src="https://cdn.simpleicons.org/cplusplus" alt="C++" width="50" style="margin: 10px;">
-</p>
-
-### Frameworks & Tools
-
-<p align="center">
-  <img src="https://cdn.simpleicons.org/react" alt="React" width="50" style="margin: 10px;">
-  <img src="https://cdn.simpleicons.org/jquery" alt="jQuery" width="50" style="margin: 10px;">
-  <img src="https://cdn.simpleicons.org/php" alt="PHP" width="50" style="margin: 10px;">
-  <img src="https://cdn.simpleicons.org/git" alt="Git" width="50" style="margin: 10px;">
-  <img src="https://cdn.simpleicons.org/github" alt="GitHub" width="50" style="margin: 10px;">
-  <img src="https://cdn.simpleicons.org/mysql" alt="MySQL" width="50" style="margin: 10px;">
-  <img src="https://cdn.simpleicons.org/jenkins" alt="Jenkins" width="50" style="margin: 10px;">
-  <img src="https://cdn.simpleicons.org/googlechrome" alt="Chrome DevTools" width="50" style="margin: 10px;">
-</p>
+</div>
 
 ---
 
-##  Work Experience
-
-### TechUnit – Intern Software Engineer  
-*Remote | 09/2024 – 12/2024*  
-- **Web Development:** Designed and deployed two websites, reducing development time by 30%.
-- **Issue Resolution:** Diagnosed and fixed 15+ front-end/back-end issues weekly, enhancing system uptime by 20%.
-- **Database Optimisation:** Refined SQL queries, cutting database response times by 35%.
-
-### Video-game Server – Business Co-owner & Lead Software Engineer  
-*Remote | 04/2019 – 04/2023*  
-- **Scalability:** Built and maintained a high-traffic Minecraft server with 10,000+ monthly users.
-- **Innovation:** Developed custom mods in Java and tailored server modifications that increased player retention by 200%.
-- **Entrepreneurship:** Successfully sold the project, underscoring robust expertise in scalable infrastructure.
+## Now
+- Building: **automation + security-focused** portfolio projects
+- Interested in: **intern/placement** roles (software engineering / security)
+- Strengths: shipping features end-to-end, fixing bugs fast, performance + reliability
 
 ---
 
-##  Projects
+## Featured Projects
+- **CustomItems1 (Java / Minecraft plugin)** — custom gameplay items + integrations for a production server  
+  Repo: https://github.com/Juuzoe/CustomItems1
 
-### Popular Repositories
-- **[PythonEmotionDetecter](https://github.com/Juuzoe/PythonEmotionDetecter):**  
-  A Python project employing machine learning techniques to detect emotions from text and images, enabling more nuanced sentiment analysis.
+- **ScreenBot (Python)** — screen-driven automation workflows (scripts you can reuse)  
+  Repo: https://github.com/Juuzoe/ScreenBot
 
-- **[PythonNewsSummariser](https://github.com/Juuzoe/PythonNewsSummariser):**  
-  A project that utilises natural language processing (NLP) to generate concise summaries of news articles, making information more digestible.
+- **Coffee-Break (Chrome extension)** — study timer + synced storage  
+  Repo: https://github.com/Juuzoe/Coffee-Break
 
-- **[Coffee-Break](https://github.com/Juuzoe/Coffee-Break):**  
-  A lightweight Chrome extension designed to help manage break times effectively, promoting better work–life balance with an intuitive interface.
-
-*Additional projects and contributions are regularly updated on my [GitHub profile](https://github.com/Juuzoe).*
+Tip: add **1 screenshot/GIF** + a **“How to run”** section in each of these READMEs — that’s what makes them feel professional.
 
 ---
 
-## 📫 Get in Touch
+## Tech
+**Languages:** Python • Java • JavaScript • C# • SQL  
+**Web:** HTML/CSS • React • jQuery • PHP  
+**Tools:** Git/GitHub • MySQL • Jenkins • Chrome DevTools
 
-- **Email:** [mgavrylenko05@gmail.com](mailto:mgavrylenko05@gmail.com)  
-- **LinkedIn:** [Maksym Gavrylenko](https://www.linkedin.com/in/maksym-gavrylenko/)
+---
