@@ -40,8 +40,6 @@ UK (open to remote / relocation)
 - **Coffee-Break (Chrome extension)** — study timer + synced storage  
   Repo: https://github.com/Juuzoe/Coffee-Break
 
-Tip: add **1 screenshot/GIF** + a **“How to run”** section in each of these READMEs — that’s what makes them feel professional.
-
 ---
 
 ## Tech
