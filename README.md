@@ -26,11 +26,7 @@ UK (open to remote / relocation)
 
 <br/><br/>
 
-<!-- Optional stats (remove if you don't want them) -->
-<p>
-  <img height="155" alt="GitHub stats" src="https://github-readme-stats.vercel.app/api?username=Juuzoe&show_icons=true&hide_title=true&hide_border=true" />
-  <img height="155" alt="Top languages" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Juuzoe&layout=compact&hide_border=true" />
-</p>
+
 
 </div>
 
@@ -46,7 +42,7 @@ Right now I am building portfolio projects that combine automation with practica
 
 <h2>Featured Projects</h2>
 
-<!-- Cards layout -->
+
 <table>
   <tr>
     <td width="50%" valign="top">
@@ -68,7 +64,6 @@ Right now I am building portfolio projects that combine automation with practica
         <img alt="GitHub Pages" src="https://img.shields.io/badge/GitHub%20Pages-111827?logo=github&logoColor=white">
       </p>
     </td>
-
     <td width="50%" valign="top">
       <h3>
         <a href="https://github.com/Juuzoe/ScreenBot">ScreenBot</a>
@@ -104,7 +99,6 @@ Right now I am building portfolio projects that combine automation with practica
         <img alt="Spigot" src="https://img.shields.io/badge/Spigot%2FPaper-111827">
       </p>
     </td>
-
     <td width="50%" valign="top">
       <h3>
         <a href="https://github.com/Juuzoe/Coffee-Break">Coffee-Break</a>
