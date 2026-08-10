@@ -24,16 +24,16 @@
   html{scroll-behavior:smooth}
   body{background:var(--ink);color:var(--cream);font-family:var(--sans);line-height:1.6;overflow-x:hidden}
   ::selection{background:var(--shu);color:#fff}
+  img{max-width:100%;display:block}
 
-  /* ---------- utilities ---------- */
   .wrap{max-width:1200px;margin:0 auto;padding:0 48px}
-  .kicker{font-family:var(--sans);font-weight:700;letter-spacing:.32em;text-transform:uppercase;font-size:.72rem;color:var(--shu)}
+  .kicker{font-weight:700;letter-spacing:.32em;text-transform:uppercase;font-size:.72rem;color:var(--shu)}
   .kicker.gold{color:var(--gold)}
   h1,h2,h3{font-family:var(--serif);font-weight:600;line-height:1.15}
 
   /* ---------- nav ---------- */
-  nav{position:fixed;top:0;left:0;right:0;z-index:50;background:rgba(22,19,17,.94);border-bottom:1px solid var(--line);backdrop-filter:blur(6px)}
-  .nav-in{max-width:1200px;margin:0 auto;padding:20px 48px;display:flex;align-items:center;justify-content:space-between}
+  nav{position:fixed;top:0;left:0;right:0;z-index:50;background:rgba(22,19,17,.9);border-bottom:1px solid var(--line);backdrop-filter:blur(8px)}
+  .nav-in{max-width:1200px;margin:0 auto;padding:18px 48px;display:flex;align-items:center;justify-content:space-between}
   .logo{display:flex;align-items:center;gap:14px;text-decoration:none;color:var(--cream)}
   .logo-seal{width:44px;height:44px;background:var(--shu);border-radius:50%;display:flex;align-items:center;justify-content:center;font-family:var(--serif);font-weight:700;font-size:1.05rem;color:#fff;box-shadow:0 0 0 3px rgba(217,79,48,.25)}
   .logo-name{font-family:var(--serif);font-size:1.3rem;letter-spacing:.14em}
@@ -41,72 +41,80 @@
   .nav-links{display:flex;gap:34px;align-items:center}
   .nav-links a{color:var(--cream);text-decoration:none;font-size:.82rem;font-weight:600;letter-spacing:.14em;text-transform:uppercase;opacity:.82;transition:.2s}
   .nav-links a:hover{opacity:1;color:var(--gold)}
-  .btn{display:inline-block;background:var(--shu);color:#fff;text-decoration:none;font-weight:700;font-size:.82rem;letter-spacing:.14em;text-transform:uppercase;padding:13px 28px;border-radius:2px;transition:.2s;border:1px solid var(--shu)}
+  .btn{display:inline-block;background:var(--shu);color:#fff;text-decoration:none;font-weight:700;font-size:.82rem;letter-spacing:.14em;text-transform:uppercase;padding:14px 30px;border-radius:2px;transition:.2s;border:1px solid var(--shu)}
   .btn:hover{background:var(--shu-deep)}
-  .btn.ghost{background:transparent;border-color:rgba(248,243,231,.35);color:var(--cream)}
+  .btn.ghost{background:rgba(22,19,17,.35);border-color:rgba(248,243,231,.45);color:var(--cream);backdrop-filter:blur(2px)}
   .btn.ghost:hover{border-color:var(--gold);color:var(--gold)}
 
   /* ---------- hero ---------- */
-  header{position:relative;min-height:100vh;display:flex;align-items:center;overflow:hidden;
-    background:
-      radial-gradient(1100px 600px at 78% 18%, rgba(217,79,48,.16), transparent 60%),
-      radial-gradient(800px 500px at 12% 85%, rgba(201,162,75,.10), transparent 60%),
-      var(--ink);}
-  .seigaiha{position:absolute;inset:auto 0 0 0;height:46%;opacity:.10;pointer-events:none}
-  .hero-kanji{position:absolute;right:6%;top:50%;transform:translateY(-50%);font-family:var(--serif);writing-mode:vertical-rl;font-size:clamp(7rem,11vw,10.5rem);font-weight:700;color:transparent;-webkit-text-stroke:1.5px rgba(201,162,75,.5);letter-spacing:.08em;user-select:none}
-  .hero-kanji b{color:rgba(217,79,48,.85);-webkit-text-stroke:0;font-weight:700}
-  .hero-in{position:relative;z-index:2;padding:160px 0 120px}
-  .hero-in .kicker{display:flex;align-items:center;gap:16px}
+  header{position:relative;min-height:100vh;display:flex;align-items:flex-end;overflow:hidden}
+  .hero-bg{position:absolute;inset:0;background:url('img/hero.jpg') center 40%/cover no-repeat}
+  .hero-bg::after{content:"";position:absolute;inset:0;background:
+      linear-gradient(180deg, rgba(22,19,17,.72) 0%, rgba(22,19,17,.25) 45%, rgba(22,19,17,.94) 100%),
+      linear-gradient(100deg, rgba(22,19,17,.85) 0%, rgba(22,19,17,.35) 55%, rgba(22,19,17,.15) 100%)}
+  .hero-kanji{position:absolute;right:5.5%;top:50%;transform:translateY(-50%);z-index:2;font-family:var(--serif);font-size:4.4rem;font-weight:700;color:rgba(248,243,231,.95);user-select:none;text-shadow:0 4px 34px rgba(0,0,0,.6);line-height:1;padding:28px 20px;border:1px solid rgba(201,162,75,.4);display:flex;flex-direction:column;gap:26px;align-items:center}
+  .hero-in{position:relative;z-index:2;padding:180px 0 90px}
+  .hero-in .kicker{display:flex;align-items:center;gap:16px;text-shadow:0 2px 14px rgba(0,0,0,.6)}
   .kicker-line{width:56px;height:1px;background:var(--shu)}
-  header h1{font-size:clamp(3.4rem,7vw,6rem);margin:26px 0 10px;letter-spacing:.02em}
+  header h1{font-size:clamp(3.2rem,6.4vw,5.6rem);margin:26px 0 12px;letter-spacing:.02em;text-shadow:0 4px 30px rgba(0,0,0,.55)}
   header h1 em{font-style:normal;color:var(--gold)}
-  .hero-sub{font-family:var(--serif);font-size:clamp(1.15rem,2vw,1.5rem);color:rgba(248,243,231,.85);max-width:34ch;margin-bottom:38px}
+  .hero-sub{font-family:var(--serif);font-size:clamp(1.12rem,1.9vw,1.45rem);color:rgba(248,243,231,.92);max-width:36ch;margin-bottom:38px;text-shadow:0 2px 18px rgba(0,0,0,.65)}
   .hero-cta{display:flex;gap:18px;flex-wrap:wrap;align-items:center}
-  .hero-meta{margin-top:64px;display:flex;gap:44px;flex-wrap:wrap}
-  .hm{border-left:2px solid rgba(201,162,75,.4);padding-left:16px}
-  .hm b{display:block;font-family:var(--serif);font-size:1.35rem;color:var(--gold)}
-  .hm span{font-size:.78rem;letter-spacing:.1em;text-transform:uppercase;opacity:.65}
+  .hero-meta{margin-top:58px;display:flex;gap:0;flex-wrap:wrap;border-top:1px solid rgba(248,243,231,.2);padding-top:26px;max-width:640px}
+  .hm{flex:1;min-width:150px;border-left:2px solid rgba(201,162,75,.45);padding-left:16px;margin-right:28px}
+  .hm b{display:block;font-family:var(--serif);font-size:1.3rem;color:var(--gold);text-shadow:0 2px 12px rgba(0,0,0,.6)}
+  .hm span{font-size:.75rem;letter-spacing:.1em;text-transform:uppercase;opacity:.75}
 
   /* ---------- marquee ---------- */
-  .marquee{background:var(--shu);color:#fff;overflow:hidden;white-space:nowrap;padding:14px 0;font-family:var(--serif);font-size:1.05rem;letter-spacing:.18em}
+  .marquee{background:var(--shu);color:#fff;overflow:hidden;white-space:nowrap;padding:14px 0;font-family:var(--serif);font-size:1.05rem;letter-spacing:.18em;position:relative;z-index:3}
   .marquee-in{display:inline-block;animation:slide 28s linear infinite}
   @keyframes slide{from{transform:translateX(0)}to{transform:translateX(-50%)}}
   .marquee i{font-style:normal;margin:0 26px;opacity:.85}
   .marquee i.dot{opacity:.5}
 
   /* ---------- story ---------- */
-  .story{background:var(--washi);color:var(--ink);padding:110px 0;position:relative}
-  .story .wrap{display:grid;grid-template-columns:1.05fr .95fr;gap:80px;align-items:center}
+  .story{background:var(--washi);color:var(--ink);padding:120px 0;position:relative}
+  .story .wrap{display:grid;grid-template-columns:1fr 1fr;gap:80px;align-items:center}
   .story h2{font-size:clamp(2.1rem,3.6vw,3rem);margin:18px 0 24px;color:var(--ink)}
   .story p{color:#4e453a;max-width:52ch;margin-bottom:16px}
   .story .stamp{margin-top:30px;display:inline-flex;align-items:center;gap:14px;font-family:var(--serif);color:var(--shu-deep)}
-  .stamp-seal{width:52px;height:52px;border:2px solid var(--shu-deep);border-radius:50%;display:flex;align-items:center;justify-content:center;font-size:1.15rem;transform:rotate(-8deg)}
-  .enso-card{position:relative;background:var(--ink);border-radius:4px;padding:56px 48px;color:var(--cream);box-shadow:24px 24px 0 rgba(22,19,17,.08)}
-  .enso-card svg{display:block;margin:0 auto 26px}
-  .enso-card h3{font-size:1.5rem;text-align:center;margin-bottom:10px;color:var(--gold)}
-  .enso-card p{color:rgba(248,243,231,.75);text-align:center;font-size:.95rem;max-width:34ch;margin:0 auto}
+  .stamp-seal{width:52px;height:52px;border:2px solid var(--shu-deep);border-radius:50%;display:flex;align-items:center;justify-content:center;font-size:1.15rem;transform:rotate(-8deg);flex:none}
+  .story-visual{position:relative}
+  .story-visual .ph{position:relative;border-radius:4px;overflow:hidden;box-shadow:26px 26px 0 rgba(22,19,17,.08)}
+  .story-visual .ph img{width:100%;height:520px;object-fit:cover}
+  .story-visual .ph::after{content:"";position:absolute;inset:0;box-shadow:inset 0 0 0 1px rgba(255,255,255,.12)}
+  .enso-badge{position:absolute;left:-38px;top:-38px;width:150px;height:150px;background:var(--ink);border-radius:50%;display:flex;align-items:center;justify-content:center;flex-direction:column;color:var(--gold);box-shadow:0 18px 40px rgba(22,19,17,.35);border:1px solid rgba(201,162,75,.3)}
+  .enso-badge svg{margin-bottom:2px}
+  .enso-badge span{font-family:var(--serif);font-size:.72rem;letter-spacing:.28em;text-transform:uppercase}
+  .story-caption{margin-top:18px;font-size:.78rem;letter-spacing:.14em;text-transform:uppercase;color:#8a7b64;text-align:right}
 
   /* ---------- rodizio banner ---------- */
-  .rodizio{background:linear-gradient(120deg,var(--shu-deep),var(--shu));color:#fff;padding:84px 0;position:relative;overflow:hidden}
-  .rodizio::after{content:"食べ放題";position:absolute;right:-20px;bottom:-46px;font-family:var(--serif);font-size:11rem;opacity:.08;font-weight:700;letter-spacing:.05em}
-  .rodizio .wrap{display:flex;justify-content:space-between;align-items:center;gap:48px;flex-wrap:wrap}
+  .rodizio{position:relative;padding:120px 0;overflow:hidden;color:#fff}
+  .rodizio-bg{position:absolute;inset:0;background:url('img/rodizio.jpg') center/cover no-repeat}
+  .rodizio-bg::after{content:"";position:absolute;inset:0;background:linear-gradient(100deg, rgba(181,58,32,.94) 0%, rgba(181,58,32,.86) 45%, rgba(120,32,14,.55) 100%)}
+  .rodizio .wrap{position:relative;z-index:2;display:flex;justify-content:space-between;align-items:center;gap:48px;flex-wrap:wrap}
   .rodizio h2{font-size:clamp(2rem,3.4vw,2.9rem);max-width:22ch}
-  .rodizio p{opacity:.92;max-width:46ch;margin-top:12px}
-  .rodizio .price{font-family:var(--serif);text-align:center;background:rgba(255,255,255,.12);border:1px solid rgba(255,255,255,.35);padding:30px 42px;border-radius:4px}
+  .rodizio p{opacity:.95;max-width:46ch;margin-top:12px}
+  .rodizio .price{font-family:var(--serif);text-align:center;background:rgba(20,10,6,.35);border:1px solid rgba(255,255,255,.4);padding:32px 46px;border-radius:4px;backdrop-filter:blur(4px)}
   .rodizio .price b{display:block;font-size:3rem;line-height:1}
   .rodizio .price span{font-size:.8rem;letter-spacing:.22em;text-transform:uppercase}
-  .rodizio .price small{display:block;margin-top:8px;font-family:var(--sans);font-size:.72rem;opacity:.85}
+  .rodizio .price small{display:block;margin-top:10px;font-family:var(--sans);font-size:.72rem;opacity:.9}
 
   /* ---------- menu ---------- */
-  .menu{padding:110px 0;background:var(--ink)}
-  .menu-head{text-align:center;max-width:640px;margin:0 auto 70px}
+  .menu{padding:120px 0 100px;background:var(--ink)}
+  .menu-head{text-align:center;max-width:640px;margin:0 auto 64px}
   .menu-head h2{font-size:clamp(2.2rem,3.8vw,3.2rem);margin:16px 0 14px}
   .menu-head p{opacity:.7}
   .menu-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:26px}
-  .mcard{border:1px solid var(--line);border-radius:4px;padding:38px 32px;background:var(--ink-soft);position:relative;transition:.25s}
-  .mcard:hover{border-color:rgba(201,162,75,.5);transform:translateY(-4px)}
-  .mcard .kj{position:absolute;top:22px;right:26px;font-family:var(--serif);font-size:2rem;color:rgba(201,162,75,.28)}
-  .mcard h3{font-size:1.35rem;color:var(--gold);margin-bottom:18px}
+  .mcard{border:1px solid var(--line);border-radius:4px;background:var(--ink-soft);overflow:hidden;transition:.25s;display:flex;flex-direction:column}
+  .mcard:hover{border-color:rgba(201,162,75,.5);transform:translateY(-5px)}
+  .mphoto{position:relative;height:190px;overflow:hidden}
+  .mphoto img{width:100%;height:100%;object-fit:cover;transition:transform .5s}
+  .mcard:hover .mphoto img{transform:scale(1.05)}
+  .mphoto::after{content:"";position:absolute;inset:0;background:linear-gradient(180deg,transparent 45%,rgba(34,29,25,.96) 100%)}
+  .mphoto .kj{position:absolute;top:16px;right:18px;z-index:2;font-family:var(--serif);font-size:1.5rem;color:#fff;background:rgba(22,19,17,.55);width:44px;height:44px;border-radius:50%;display:flex;align-items:center;justify-content:center;border:1px solid rgba(201,162,75,.5)}
+  .mphoto h3{position:absolute;left:26px;bottom:14px;z-index:2;font-size:1.35rem;color:var(--gold)}
+  .mbody{padding:20px 28px 30px}
   .mrow{display:flex;justify-content:space-between;align-items:baseline;gap:10px;padding:11px 0;border-bottom:1px dashed rgba(248,243,231,.12)}
   .mrow:last-child{border-bottom:none}
   .mrow .nm{font-weight:600;font-size:.95rem}
@@ -114,8 +122,22 @@
   .mrow .pr{font-family:var(--serif);color:var(--shu);white-space:nowrap}
   .menu-note{text-align:center;margin-top:44px;font-size:.85rem;opacity:.55}
 
+  /* ---------- gallery ---------- */
+  .gallery{background:var(--ink);padding:0 0 120px}
+  .gal-head{display:flex;justify-content:space-between;align-items:flex-end;margin-bottom:40px;gap:24px;flex-wrap:wrap}
+  .gal-head h2{font-size:clamp(2rem,3.2vw,2.7rem);margin-top:14px}
+  .gal-head p{opacity:.6;max-width:40ch;font-size:.95rem}
+  .gal-grid{display:grid;grid-template-columns:repeat(4,1fr);grid-auto-rows:210px;gap:14px;grid-auto-flow:dense}
+  .gal-grid a{position:relative;border-radius:4px;overflow:hidden;display:block}
+  .gal-grid img{width:100%;height:100%;object-fit:cover;transition:transform .5s}
+  .gal-grid a:hover img{transform:scale(1.06)}
+  .gal-grid a::after{content:"";position:absolute;inset:0;background:rgba(22,19,17,.18);transition:.3s}
+  .gal-grid a:hover::after{background:rgba(22,19,17,0)}
+  .gal-grid .tall{grid-row:span 2}
+  .gal-grid .wide{grid-column:span 2}
+
   /* ---------- reviews ---------- */
-  .reviews{background:var(--washi-deep);color:var(--ink);padding:110px 0}
+  .reviews{background:var(--washi-deep);color:var(--ink);padding:120px 0}
   .rev-head{display:flex;justify-content:space-between;align-items:flex-end;margin-bottom:56px;gap:30px;flex-wrap:wrap}
   .rev-head h2{font-size:clamp(2.1rem,3.5vw,3rem);margin-top:14px}
   .score{font-family:var(--serif);text-align:right}
@@ -129,34 +151,43 @@
   .rcard .who{font-size:.8rem;letter-spacing:.12em;text-transform:uppercase;color:#8a7b64;font-weight:700}
 
   /* ---------- contact ---------- */
-  .contact{padding:110px 0;background:var(--ink);position:relative;overflow:hidden}
-  .contact::before{content:"営業時間";position:absolute;left:-10px;top:30px;font-family:var(--serif);font-size:8rem;opacity:.05;font-weight:700}
-  .contact .wrap{display:grid;grid-template-columns:1fr 1fr;gap:80px}
-  .contact h2{font-size:clamp(2.1rem,3.5vw,3rem);margin:16px 0 30px}
-  .cline{display:flex;gap:18px;padding:20px 0;border-bottom:1px solid var(--line);align-items:flex-start}
+  .contact{padding:120px 0;background:var(--ink)}
+  .contact .wrap{display:grid;grid-template-columns:340px 1fr 1fr;gap:56px;align-items:start}
+  .c-photo{position:relative;border-radius:4px;overflow:hidden;height:100%;min-height:520px}
+  .c-photo img{width:100%;height:100%;object-fit:cover;position:absolute;inset:0}
+  .c-photo::after{content:"";position:absolute;inset:0;background:linear-gradient(180deg,transparent 55%,rgba(22,19,17,.85) 100%);z-index:1}
+  .c-photo figcaption{position:absolute;left:22px;bottom:18px;z-index:2;font-family:var(--serif);font-size:.95rem;color:var(--gold);letter-spacing:.08em}
+  .contact h2{font-size:clamp(2rem,3.2vw,2.7rem);margin:16px 0 26px}
+  .cline{display:flex;gap:18px;padding:19px 0;border-bottom:1px solid var(--line);align-items:flex-start}
+  .cline:last-of-type{border-bottom:none}
   .cline .ico{width:40px;height:40px;flex:none;border:1px solid rgba(201,162,75,.45);border-radius:50%;display:flex;align-items:center;justify-content:center;color:var(--gold)}
   .cline b{display:block;font-size:.72rem;letter-spacing:.24em;text-transform:uppercase;color:var(--gold);margin-bottom:4px}
-  .cline p{font-family:var(--serif);font-size:1.08rem}
+  .cline p{font-family:var(--serif);font-size:1.06rem}
   .cline small{opacity:.6;font-size:.82rem}
-  .hours{background:var(--ink-soft);border:1px solid var(--line);border-radius:4px;padding:44px 40px;align-self:start}
+  .hours{background:var(--ink-soft);border:1px solid var(--line);border-radius:4px;padding:40px 36px}
   .hours h3{font-size:1.4rem;color:var(--gold);margin-bottom:24px;display:flex;justify-content:space-between;align-items:baseline}
   .hours h3 span{font-size:1rem;opacity:.5}
-  .hrow{display:flex;justify-content:space-between;padding:12px 0;border-bottom:1px dashed rgba(248,243,231,.12);font-size:.95rem}
+  .hrow{display:flex;justify-content:space-between;gap:12px;padding:12px 0;border-bottom:1px dashed rgba(248,243,231,.12);font-size:.92rem}
   .hrow:last-of-type{border-bottom:none}
   .hrow .d{font-weight:600}
-  .hrow .h{font-family:var(--serif);color:rgba(248,243,231,.85)}
+  .hrow .h{font-family:var(--serif);color:rgba(248,243,231,.85);text-align:right}
   .hrow.closed .h{color:var(--shu)}
-  .hours .btn{width:100%;text-align:center;margin-top:28px}
+  .hours .btn{width:100%;text-align:center;margin-top:26px}
 
-  /* ---------- footer ---------- */
   footer{background:#0e0c0a;padding:44px 0;border-top:1px solid var(--line)}
   footer .wrap{display:flex;justify-content:space-between;align-items:center;gap:20px;flex-wrap:wrap}
   footer p{font-size:.8rem;opacity:.5}
   footer .fk{font-family:var(--serif);color:var(--gold);letter-spacing:.3em}
 
+  @media(max-width:1080px){
+    .contact .wrap{grid-template-columns:1fr 1fr}
+    .c-photo{display:none}
+  }
   @media(max-width:960px){
-    .story .wrap,.contact .wrap{grid-template-columns:1fr}
+    .story .wrap{grid-template-columns:1fr}
     .menu-grid,.rev-grid{grid-template-columns:1fr}
+    .contact .wrap{grid-template-columns:1fr}
+    .gal-grid{grid-template-columns:repeat(2,1fr)}
     .hero-kanji{display:none}
     .nav-links{display:none}
     .wrap{padding:0 24px}
@@ -175,6 +206,7 @@
       <a href="#historia">A Casa</a>
       <a href="#rodizio">Rodízio</a>
       <a href="#menu">Menu</a>
+      <a href="#galeria">Galeria</a>
       <a href="#opinioes">Opiniões</a>
       <a href="#contactos" class="btn">Reservar Mesa</a>
     </div>
@@ -182,19 +214,8 @@
 </nav>
 
 <header>
-  <svg class="seigaiha" viewBox="0 0 1440 400" preserveAspectRatio="xMidYMax slice" aria-hidden="true">
-    <defs>
-      <pattern id="sg" x="0" y="0" width="120" height="60" patternUnits="userSpaceOnUse">
-        <g fill="none" stroke="#c9a24b" stroke-width="1.5">
-          <circle cx="60" cy="60" r="58"/><circle cx="60" cy="60" r="44"/><circle cx="60" cy="60" r="30"/><circle cx="60" cy="60" r="16"/>
-          <circle cx="0" cy="90" r="58"/><circle cx="0" cy="90" r="44"/><circle cx="0" cy="90" r="30"/><circle cx="0" cy="90" r="16"/>
-          <circle cx="120" cy="90" r="58"/><circle cx="120" cy="90" r="44"/><circle cx="120" cy="90" r="30"/><circle cx="120" cy="90" r="16"/>
-        </g>
-      </pattern>
-    </defs>
-    <rect width="1440" height="400" fill="url(#sg)"/>
-  </svg>
-  <div class="hero-kanji" aria-hidden="true">京<b>都</b></div>
+  <div class="hero-bg"></div>
+  <div class="hero-kanji" aria-hidden="true"><span>京</span><span>都</span></div>
   <div class="wrap hero-in">
     <div class="kicker"><span class="kicker-line"></span>Restaurante Japonês · Sintra</div>
     <h1>A alma de Quioto,<br>à mesa em <em>Sintra</em></h1>
@@ -230,18 +251,22 @@
         <span><b>Shun</b> — cozinhar o que a época dá,<br>quando a época o dá.</span>
       </div>
     </div>
-    <div class="enso-card">
-      <svg width="150" height="150" viewBox="0 0 150 150" aria-hidden="true">
-        <path d="M75 14 a61 61 0 1 0 42 17" fill="none" stroke="#d94f30" stroke-width="7" stroke-linecap="round" opacity=".95"/>
-        <text x="75" y="86" text-anchor="middle" font-family="'Zen Old Mincho',serif" font-size="34" fill="#c9a24b">味</text>
-      </svg>
-      <h3>Aji — o sabor certo</h3>
-      <p>Menos ingredientes, mais intenção. É esta a medida de tudo o que sai do nosso balcão.</p>
+    <div class="story-visual">
+      <div class="ph"><img src="img/chef.jpg" alt="Chefe a preparar sushi no balcão"></div>
+      <div class="enso-badge">
+        <svg width="52" height="52" viewBox="0 0 150 150" aria-hidden="true">
+          <path d="M75 14 a61 61 0 1 0 42 17" fill="none" stroke="#d94f30" stroke-width="9" stroke-linecap="round"/>
+          <text x="75" y="88" text-anchor="middle" font-family="'Zen Old Mincho',serif" font-size="38" fill="#c9a24b">味</text>
+        </svg>
+        <span>Aji</span>
+      </div>
+      <p class="story-caption">O balcão — onde tudo acontece</p>
     </div>
   </div>
 </section>
 
 <section class="rodizio" id="rodizio">
+  <div class="rodizio-bg"></div>
   <div class="wrap">
     <div>
       <span class="kicker" style="color:#ffd9cc">Almoço · Ter–Sex</span>
@@ -265,31 +290,54 @@
     </div>
     <div class="menu-grid">
       <div class="mcard">
-        <span class="kj">生</span>
-        <h3>Frio &amp; Cru</h3>
-        <div class="mrow"><span class="nm">Sashimi do dia (12 pç)<small>seleção do chefe, peixe do mercado</small></span><span class="pr">14,50 €</span></div>
-        <div class="mrow"><span class="nm">Nigiri de salmão (2 pç)<small>salmão norueguês, arroz de Quioto</small></span><span class="pr">3,90 €</span></div>
-        <div class="mrow"><span class="nm">Nigiri de atum (2 pç)<small>atum rabilho braseado</small></span><span class="pr">4,60 €</span></div>
-        <div class="mrow"><span class="nm">Gunkan de ovas<small>tobiko e maionese japonesa</small></span><span class="pr">4,20 €</span></div>
+        <div class="mphoto"><img src="img/card-frio.jpg" alt="Nigiri de salmão"><span class="kj">生</span><h3>Frio &amp; Cru</h3></div>
+        <div class="mbody">
+          <div class="mrow"><span class="nm">Sashimi do dia (12 pç)<small>seleção do chefe, peixe do mercado</small></span><span class="pr">14,50 €</span></div>
+          <div class="mrow"><span class="nm">Nigiri de salmão (2 pç)<small>salmão norueguês, arroz de Quioto</small></span><span class="pr">3,90 €</span></div>
+          <div class="mrow"><span class="nm">Nigiri de atum (2 pç)<small>atum rabilho braseado</small></span><span class="pr">4,60 €</span></div>
+          <div class="mrow"><span class="nm">Gunkan de ovas<small>tobiko e maionese japonesa</small></span><span class="pr">4,20 €</span></div>
+        </div>
       </div>
       <div class="mcard">
-        <span class="kj">巻</span>
-        <h3>Rolos &amp; Temaki</h3>
-        <div class="mrow"><span class="nm">Uramaki KYOTO (8 pç)<small>salmão, abacate, crocante de tempura</small></span><span class="pr">9,80 €</span></div>
-        <div class="mrow"><span class="nm">Hosomaki de pepino (6 pç)<small>fresco e simples, como deve ser</small></span><span class="pr">4,50 €</span></div>
-        <div class="mrow"><span class="nm">Temaki de atum picante<small>malagueta togarashi, cebolinho</small></span><span class="pr">5,90 €</span></div>
-        <div class="mrow"><span class="nm">Futomaki da serra (5 pç)<small>legumes da época de Sintra</small></span><span class="pr">7,40 €</span></div>
+        <div class="mphoto"><img src="img/card-rolos.jpg" alt="Maki rolls de salmão"><span class="kj">巻</span><h3>Rolos &amp; Temaki</h3></div>
+        <div class="mbody">
+          <div class="mrow"><span class="nm">Uramaki KYOTO (8 pç)<small>salmão, abacate, crocante de tempura</small></span><span class="pr">9,80 €</span></div>
+          <div class="mrow"><span class="nm">Hosomaki de pepino (6 pç)<small>fresco e simples, como deve ser</small></span><span class="pr">4,50 €</span></div>
+          <div class="mrow"><span class="nm">Temaki de atum picante<small>malagueta togarashi, cebolinho</small></span><span class="pr">5,90 €</span></div>
+          <div class="mrow"><span class="nm">Futomaki da serra (5 pç)<small>legumes da época de Sintra</small></span><span class="pr">7,40 €</span></div>
+        </div>
       </div>
       <div class="mcard">
-        <span class="kj">温</span>
-        <h3>Quentes</h3>
-        <div class="mrow"><span class="nm">Gyoza de porco (5 pç)<small>grelhados, molho ponzu</small></span><span class="pr">6,20 €</span></div>
-        <div class="mrow"><span class="nm">Tempura de camarão<small>massa leve, sal de yuzu</small></span><span class="pr">8,90 €</span></div>
-        <div class="mrow"><span class="nm">Yakisoba de legumes<small>noodles salteados no wok</small></span><span class="pr">8,50 €</span></div>
-        <div class="mrow"><span class="nm">Sopa missô<small>tofu, wakame, cebolinho</small></span><span class="pr">2,80 €</span></div>
+        <div class="mphoto"><img src="img/card-quentes.jpg" alt="Prato quente japonês"><span class="kj">温</span><h3>Quentes</h3></div>
+        <div class="mbody">
+          <div class="mrow"><span class="nm">Gyoza de porco (5 pç)<small>grelhados, molho ponzu</small></span><span class="pr">6,20 €</span></div>
+          <div class="mrow"><span class="nm">Tempura de camarão<small>massa leve, sal de yuzu</small></span><span class="pr">8,90 €</span></div>
+          <div class="mrow"><span class="nm">Yakisoba de legumes<small>noodles salteados no wok</small></span><span class="pr">8,50 €</span></div>
+          <div class="mrow"><span class="nm">Sopa missô<small>tofu, wakame, cebolinho</small></span><span class="pr">2,80 €</span></div>
+        </div>
       </div>
     </div>
     <p class="menu-note">Temos opções vegetarianas e sem glúten — pergunte à equipa. Preços de demonstração para o site de pré-visualização.</p>
+  </div>
+</section>
+
+<section class="gallery" id="galeria">
+  <div class="wrap">
+    <div class="gal-head">
+      <div>
+        <span class="kicker gold">Galeria · 写真</span>
+        <h2>Um lugar à mesa</h2>
+      </div>
+      <p>O que sai do balcão, tal como chega à mesa — sem filtros nem pressa.</p>
+    </div>
+    <div class="gal-grid">
+      <a class="wide" href="#"><img src="img/g1.jpg" alt="Tábuas de sushi variado"></a>
+      <a class="tall" href="#"><img src="img/g5.jpg" alt="Travessa de sashimi"></a>
+      <a href="#"><img src="img/g2.jpg" alt="Uramaki com flor de wasabi"></a>
+      <a href="#"><img src="img/g3.jpg" alt="Rolos crocantes"></a>
+      <a href="#"><img src="img/g4.jpg" alt="Maki com cebolinho"></a>
+      <a href="#"><img src="img/g6.jpg" alt="Cocktail da casa"></a>
+    </div>
   </div>
 </section>
 
@@ -328,12 +376,16 @@
 
 <section class="contact" id="contactos">
   <div class="wrap">
+    <figure class="c-photo">
+      <img src="img/entrada.jpg" alt="Entrada do restaurante à noite">
+      <figcaption>いらっしゃいませ — seja bem-vindo</figcaption>
+    </figure>
     <div>
       <span class="kicker gold">Visite-nos</span>
       <h2>No coração da vila</h2>
       <div class="cline">
         <span class="ico"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 21s-7-5.5-7-11a7 7 0 1 1 14 0c0 5.5-7 11-7 11z"/><circle cx="12" cy="10" r="2.5"/></svg></span>
-        <div><b>Morada</b><p>Av. Heliodoro Salgado 25, 2710-575 Sintra</p><small>a 3 minutos a pé da estação de Sintra</small></div>
+        <div><b>Morada</b><p>Av. Heliodoro Salgado 25,<br>2710-575 Sintra</p><small>a 3 minutos a pé da estação de Sintra</small></div>
       </div>
       <div class="cline">
         <span class="ico"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.9v3a2 2 0 0 1-2.2 2 19.8 19.8 0 0 1-8.6-3.1 19.5 19.5 0 0 1-6-6A19.8 19.8 0 0 1 2.1 4.2 2 2 0 0 1 4.1 2h3a2 2 0 0 1 2 1.7c.1 1 .4 2 .7 2.9a2 2 0 0 1-.4 2.1L8.1 10a16 16 0 0 0 6 6l1.3-1.3a2 2 0 0 1 2.1-.4c.9.3 1.9.6 2.9.7a2 2 0 0 1 1.6 1.9z"/></svg></span>
@@ -346,10 +398,10 @@
     </div>
     <div class="hours">
       <h3>Horário <span>営業時間</span></h3>
-      <div class="hrow"><span class="d">Terça — Quinta</span><span class="h">12:00–15:00 · 19:00–22:30</span></div>
-      <div class="hrow"><span class="d">Sexta — Sábado</span><span class="h">12:00–15:00 · 19:00–23:00</span></div>
-      <div class="hrow"><span class="d">Domingo</span><span class="h">12:30–15:30 · 19:00–22:00</span></div>
-      <div class="hrow closed"><span class="d">Segunda</span><span class="h">Encerrado — descanso do chefe</span></div>
+      <div class="hrow"><span class="d">Terça — Quinta</span><span class="h">12:00–15:00<br>19:00–22:30</span></div>
+      <div class="hrow"><span class="d">Sexta — Sábado</span><span class="h">12:00–15:00<br>19:00–23:00</span></div>
+      <div class="hrow"><span class="d">Domingo</span><span class="h">12:30–15:30<br>19:00–22:00</span></div>
+      <div class="hrow closed"><span class="d">Segunda</span><span class="h">Encerrado</span></div>
       <a class="btn" href="tel:+351964204008">Ligar para reservar</a>
     </div>
   </div>
