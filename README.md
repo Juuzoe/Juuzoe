@@ -34,7 +34,7 @@ alt="Developer system boot animation"
 
 ## Now
 
-Right now I am building portfolio projects that combine automation with practical security ideas, with the goal of turning them into things I can reuse. I am looking for junior roles in software engineering and security. I usually work end to end, from UI and APIs down to data and deployment, and I spend a lot of time fixing edge cases so features behave consistently.
+Right now I am building projects that combine automation with practical security ideas, with the goal of turning them into things I can reuse. I am looking for roles in software engineering, AI and security. I usually work end-to-end, from UI and APIs down to data and deployment, and I spend a lot of time fixing edge cases so features behave consistently.
 
 ---
 
