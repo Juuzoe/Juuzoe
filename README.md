@@ -1,6 +1,6 @@
 Founder and software engineer at [Valten Studio](https://valtenstudio.com/en-gb), a web studio for owner-led businesses.
 
-I built the three products below and host them on my own VPS behind Caddy. The code is private, so the links go to the live sites.
+I built the three products below!:
 
 <table>
 <tr>
