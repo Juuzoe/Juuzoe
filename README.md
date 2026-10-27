@@ -7,7 +7,7 @@ I built the three products below!:
 <td width="33%" valign="top">
 <a href="https://www.cents-security.com"><img src="assets/cents.png" alt="Cents Security home page"></a>
 <h3><a href="https://www.cents-security.com">Cents Security</a></h3>
-Website checker for small businesses. It has 169 checks for security, search and privacy problems, and it puts a monthly £ cost on each finding with the maths shown.
+Website checker for small businesses. It has 170+ checks for security, search, SEO and privacy problems, and explains what each costs and how to fix them.
 <br><br>
 <sub>Next.js · TypeScript · Redis</sub>
 </td>
@@ -21,7 +21,7 @@ UK tech jobs for international students and graduates. JLocate checks each emplo
 <td width="33%" valign="top">
 <a href="https://wlpchat.club"><img src="assets/wlp.png" alt="WLP Chat home page"></a>
 <h3><a href="https://wlpchat.club">WLP Chat</a></h3>
-Invite-only messenger for adult membership groups. Members join through invite links that expire and use a different name in each room. The app is a research prototype.
+Invite-only messenger for organisations that need privacy. It has basic features of a messanger and high-level encryption, running on different platforms.
 <br><br>
 <sub>Astro · React Native · Expo</sub>
 </td>
